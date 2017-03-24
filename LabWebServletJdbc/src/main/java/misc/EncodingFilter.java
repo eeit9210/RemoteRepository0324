@@ -33,6 +33,6 @@ public class EncodingFilter implements Filter {
 	private FilterConfig fileterConfig;
 	@Override
 	public void init(FilterConfig config) throws ServletException {
-		this.fileterConfig = config;
+		this.fileterConfig = config;  //d
 	}
 }
